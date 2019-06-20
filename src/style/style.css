@@ -1,0 +1,83 @@
+body{
+    background-color: lightsalmon
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: aquamarine;
+    align-self: center;
+    margin: auto;
+}
+.header{
+    background-color: #EFF7FF;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:60px;
+    height: 50px;
+    width: 81.5%;
+    display: inline-block
+}
+.header_logo{
+    width:20%;
+    float: left;
+    height: inherit;
+    margin-left: 15px;
+    display: inline-block
+    
+}
+.fav_icon{
+    float: right;
+    margin-left: 100px;
+}
+.search{
+    width: auto;
+    float: right;
+    display: inline-block;
+    margin-right: 200px;
+    margin-top: 12px;
+    
+}
+.search_text, .btn_search{
+    border-radius: 15px;
+    height: 30px; 
+    background-color:coral;
+    border: 2px solid black;
+}
+.search_text{
+    width: 250px;
+    text-align: center;
+}
+.btn_search{
+    width:100px;
+}
+.first_section, .second_section, .third_section{
+    width: 32.75%;
+    margin-left: 5px;
+    height: 81%;
+    float: left;
+    border-radius: 10px;
+    margin-top: 5px
+}
+
+.first_section{
+    background-color: darkseagreen;
+}
+
+.third_section{
+    background-color: darkseagreen;
+}
+
+.second_section{
+    background-color: #EFF7FF;
+}
+
+.shopping_list{
+    text-align: center;
+    color: #36FF00;
+}
+
+.footer_section{
+    margin-top: 125%;
+    text-align: center;
+}
